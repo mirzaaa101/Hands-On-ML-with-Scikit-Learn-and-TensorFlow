@@ -1,0 +1,4 @@
+conda create --name venv python=3.11
+conda activate venv
+python -m tensorflow --version
+tensorboard --logdir=./tensorboard
